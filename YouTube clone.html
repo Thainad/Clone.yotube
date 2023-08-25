@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="pt-br"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=5, initial-scale=1.0"> 
+  <link rel="stylesheet" href="style.css"> 
+  <title>YOU TUBE</title> 
+ <style type="text/css" id="dcoder_stylesheet">main{
+    display:grid;
+    grid-template-areas:
+    "head head head"
+    "content content side"
+    "content content side"
+    "foot foot foot";
+    grid-template-rows: 30px auto;
+}
+body{
+    display: flexbox;
+    margin:0px;
+}
+header{
+    grid-area: head;
+    display: inline-flex;
+    background-color:#fff;
+    height: 100px;
+}
+button[type="submit"] {
+    background-color:rgb(245, 141, 141);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+header.menu {
+    justify-content: space-around;
+}
+article{
+    grid-area: content;
+    background-color:#FFF;
+    font-family: roboto;;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flexbox;
+    font-size: 14px;
+    
+}
+.dio{
+    width: 42px;
+    height: 42px;
+    border-radius: 42px;
+    background: url(<path-to-image>), white 50% / cover no-repeat;
+    display:inline;
+    margin: 10px;
+}
+article h2{
+    color: #000;
+    font-size: 14px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display:inline;
+}
+.gray{
+    font-size: 14px;
+    color: grey;
+}
+.ins{
+    color: #FFF;
+    font-size: 14px;
+    font-family: Roboto;
+    font-style:normal;
+    font-weight: 600;
+    line-height:normal;
+    text-transform: uppercase;
+    background-color: red;
+    width: 159px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    display:inline;
+    text-align:center;
+    top: 5px;
+}
+.one{
+    padding: 16px;
+    text-align: center;
+}
+.two{
+    padding: 16px;
+}
+.tree{
+    padding: 16px;
+    display: inline-flex;
+}
+.four{
+    padding: 16px;
+    color: #000;
+font-size: 14px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.five{
+    padding: 16px;
+    display: flex;
+width: 510px;
+flex-direction: column;
+color: #515151;
+font-size: 14px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+aside{
+    grid-area: side;
+    background-color: #fff;
+}
+.videos{
+    display: flex;
+    align-items: center;
+}
+.fig{
+    margin-right: 10px;
+}
+figcaption{
+    font-family: roboto;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+footer{
+    grid-area: foot;
+    background-color: #fff;
+    font-family:sans-serif;
+    font-size: 14px;
+}</style></head> 
+ <body> 
+  <main> 
+   <header class="menu" alt="menu de navegação, logo youtube, barra de pesquisa, acessar conta, sininho de notificação, usuário"> 
+    <section> 
+     <img src="./imagens/menu.png"> 
+     <img src="./imagens/youtube 1.png"> 
+    </section> 
+    <section> 
+     <form action="/search"> 
+      <input type="text" placeholder="Pesquisar..."> <a href="https://www.youtube.com/"> <button type="submit">Pesquisar</button></a> 
+     </form> 
+    </section> 
+    <section> 
+     <img src="./imagens/video.png" height="30px" width="30px"> 
+     <img src="./imagens/bell.png" height="30px" width="30px"> 
+     <img src="./img2/usu2.png" height="30px" width="30px"> 
+    </section> 
+   </header> 
+   <article> 
+    <section class="one"> <iframe width="952" height="537" src="https://www.youtube.com/embed/HuEADvyhork" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+    </section> 
+    <section class="two"> 
+     <h1>O que é CSS? Seletores e Propriedades | [GUIA 2023] | Getting Started #16</h1>&gt; 
+    </section> 
+    <section class="tree"> 
+     <figure class="dio"> 
+      <img src="./imagens/Channel Avatar.png"> 
+     </figure> 
+     <p>DIO<br class="gray">83,3 mil inscritos<br></p> <button class="ins">Inscrever-se</button> 
+     <figure class="dio"> 
+      <img src="./imagens/thumbs-up.png"> 
+     </figure> 
+     <p>3 MIL</p> 
+     <figure class="dio"> 
+      <img src="./imagens/thumbs-down.png"> 
+     </figure> 
+     <p>NÃO GOSTEI</p> 
+     <figure class="dio"> 
+      <img src="./imagens/share-2.png"> 
+     </figure> 
+     <p>COMPARTILHAR</p> 
+     <figure class="dio"> 
+      <img src="./imagens/download.png"> 
+     </figure> 
+     <p>DOWNLOAD</p> 
+    </section> 
+    <section class="four"> 
+     <p>6.971 visualizações Estreou em 25 de abr. de 2022</p> 
+    </section> 
+    <section class="five"> 
+     <p>No vídeo de hoje, a Dri vai te responder tudo sobre a tecnologia que é responsável por deixar a web mais bonita #CSS. O que são seletores, propriedades. Quer saber tudo isso? Então fica com a gente no vídeo! <br> Antes de começar, já dê seu like 👍🏻, ative o 🔔, pegue um cafezinho ☕ e deixa seu comentário se você já se decidiu qual linguagem aprender primeiro!<br></p> 
+    </section> 
+   </article> 
+   <aside> 
+    <section> 
+     <figure class="videos"> 
+      <img class="fig" src="./img2/Thumb.png" alt="Geração Tech Unimed - BH - Ciência de Dados"> 
+      <figcaption>
+       Geração Tech Unimed - BH - Ciência de Dados 
+       <p class="gray">DigitalInnovationOne<br> <br>2,1 mil visualizações<br>Transmitido há 2 dias</p>
+      </figcaption> 
+     </figure> 
+    </section> 
+    <section> 
+     <figure class="videos"> 
+      <img class="fig" src="./img2/image 12.png" alt="Scrum Talks"> 
+      <figcaption>
+       Scrum Talks 
+       <p class="gray">DigitalInnovationOne<br> <br>1,6 mil visualizações<br>Transmitido há 3 dias</p>
+      </figcaption> 
+     </figure> 
+    </section> 
+    <section> 
+     <figure class="videos"> 
+      <img class="fig" src="./img2/image 13.png" alt="Machine Learning Avançado - Fast Track"> 
+      <figcaption>
+       Machine Learning Avançado - Fast Track 
+       <p class="gray">DigitalInnovationOne<br> <br>1,7 mil visualizações <br>Transmitido há 4 dias</p>
+      </figcaption> 
+     </figure> 
+    </section> 
+    <section> 
+     <figure class="videos"> 
+      <img class="fig" src="./img2/image 14.png" alt="Global Skills #2 - Project Planning"> 
+      <figcaption>
+       Global Skills #2 - Project Planning 
+       <p class="gray">DigitalInnovationOne<br> <br>2,1 mil visualizações<br>Transmitido há 2 dias</p>
+      </figcaption> 
+     </figure> 
+    </section> 
+    <section> 
+     <figure class="videos"> 
+      <img class="fig" src="./img2/image 15.png" alt="Como aprender a programar Python do ZERO"> 
+      <figcaption>
+       Como aprender a programar Python do ZERO 
+       <p class="gray">DigitalInnovationOne<br> <br>711 visualizações<br>Transmitido há 6 dias</p>
+      </figcaption> 
+     </figure> 
+    </section> 
+    <section> 
+     <figure class="videos"> 
+      <img class="fig" src="./img2/Thumb (1).png" alt="Geração Tech Unimed - BH - Ciência de Dados"> 
+      <figcaption>
+       Geração Tech Unimed - BH - Ciência de Dados 
+       <p class="gray">DigitalInnovationOne<br> <br>2,1 mil visualizações<br>Transmitido há 2 dias</p>
+      </figcaption> 
+     </figure> 
+    </section> 
+    <section> 
+     <figure class="videos"> 
+      <img class="fig" src="./img2/image 12.png" alt="Scrum Talks"> 
+      <figcaption>
+       Scrum Talks 
+       <p class="gray">DigitalInnovationOne<br> <br>1,6 mil visualizações<br>Transmitido há 3 dias</p>
+      </figcaption> 
+     </figure> 
+    </section> 
+    <section> 
+     <figure class="videos"> 
+      <img class="fig" src="./img2/image 13.png" alt="Machine Learning Avançado - Fast Track"> 
+      <figcaption>
+       Machine Learning Avançado - Fast Track 
+       <p class="gray">DigitalInnovationOne<br> <br>1,7 mil visualizações <br>Transmitido há 4 dias</p>
+      </figcaption> 
+     </figure> 
+    </section> 
+    <section> 
+     <figure class="videos"> 
+      <img class="fig" src="./img2/image 14.png" alt="Global Skills #2 - Project Planning"> 
+      <figcaption>
+       Global Skills #2 - Project Planning 
+       <p class="gray">DigitalInnovationOne<br> <br>2,1 mil visualizações<br>Transmitido há 2 dias</p>
+      </figcaption> 
+     </figure> 
+    </section> 
+   </aside> 
+   <footer> 
+    <p>Desenvolvedora Thainá @2023 agosto de 2023</p> 
+   </footer> 
+  </main> 
+ 
+</body></html>
